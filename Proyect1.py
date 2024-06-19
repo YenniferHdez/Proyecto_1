@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors, Lizard, Spock is the geek version of the classic Rock, Paper, Scissors game.
+2# Rock, Paper, Scissors, Lizard, Spock is the geek version of the classic Rock, Paper, Scissors game.
 # Rules: 
 # Scissors cuts Paper. Paper covers Rock. Rock crushes Lizard. Lizard poisons Spock. 
 # Spock smashes Scissors. Scissors decapitates Lizard. Lizard eats Paper. Paper disproves Spock.
@@ -28,7 +28,7 @@ else:
 
     if computer_choice == user_choice:
         print("It's a draw")
-    elif user_choice == 1 or user_choice == 4 and computer_choice == 0:
+    elif user_choice == 2 or user_choice == 4 and computer_choice == 0:
         print("You win!🎊")
     elif user_choice == 2 or user_choice == 3 and computer_choice == 1:
         print("You win!🎊")    
